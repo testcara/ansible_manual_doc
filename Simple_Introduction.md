@@ -9,7 +9,7 @@ Ansible Playbook提供了人类可读的自动化，也就是说playbooks是人�
 Ansible是基于无客户端的结构进行编译的。通常，Ansible通过OpenSSH后者WinRM链接它管理的host，然后运行任务，一般会推送一些小程序（Ansible modules）到host，这些程序会将系统变成我们需要的特定的状态， 当任务完成后，这些被推送过去的Ansible modules会被删除。
 由于Ansible无客户端特性，你可以随时使用Ansible去管理你的hosts而不用去考虑客观端和服务端安全架构等其他信息。
 
-让我们总结下Ansible的一些关键优势：
+## 总结Ansible关键优势
 * 支持跨平台 - agentless支持Linux/windows/UNIX/network，各种物理的，云的，容器的环境
 * 易读的自动化- Ansible Playbooks是YAML格式，非常容易读。
 * 对应用的完美表述 - Ansible playbooks可以做所有环境改变，应用环境的每一个方面都可以被很好描述。
